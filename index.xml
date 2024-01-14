@@ -6,14 +6,14 @@
     <description>Recent content in Homepage on Angela&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 19 Dec 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://photoang.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>1. Theme Installation</title>
-      <link>https://photoang.github.io/articles/installation/</link>
-      <pubDate>Sun, 19 Dec 2021 00:00:00 +0000</pubDate>
-      <guid>https://photoang.github.io/articles/installation/</guid>
-      <description>Create a new hugo website or open your existing hugo site.&#xA;Add the theme to your hugo site Use as a git submodule:&#xA;git submodule add https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Clone the repository (one-off, updating the theme may be harder later):&#xA;git clone https://github.com/apvarun/digital-garden-hugo-theme.git themes/digitalgarden Setup Copy package.json, package-lock.json and tailwind.config.js files from the theme/digitalgarden folder to the root folder of your the website Run npm install to install required packages for theme Run npm i -g postcss-cli to use PostCSS with Hugo build Set theme = &#39;digitalgarden&#39; in config.</description>
+      <title>1. 快速在Github架設Hugo網站</title>
+      <link>https://photoang.github.io/articles/github-with-hugo/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://photoang.github.io/articles/github-with-hugo/</guid>
+      <description>這篇要分享無痛快速在 Github 架設 Hugo 網站，身為文組程式小白，在網路上查詢大家分享如何在 Github 架設 Hugo 網站，看似很簡單的上架流程我試錯了 N 次，最後看 Hahow 的課程才順利架站成功，分享下最簡易版本的上架流程，也推薦想更深入了解的程式小白購買課程~&#xA;STEP 1 : 下載 Hugo 下載最新版的 Hugo : 下載連結&#xA;完成下載後在 Windows 上開 cmd 輸入 hugo version 確認是否有安裝成功&#xA;STEP 2 : 在桌面建立網站資料夾 選擇想要的 Hugo Theme : 這邊找 選擇 Download 進入到 Theme 的 Github，Clone 下該 Theme 的壓縮檔 解壓縮 Theme 檔案後複製 Theme 下的 exampleSite 拖曳到 桌面 桌面的 exampleSite 下方新增 themes 資料夾，將解壓縮後的 Theme 檔案整個 copy 進此 themes 資料夾內 在資料夾路徑中打 cmd 輸入 hugo server，打開 http://localhost:1313/連結，即可預覽你的 Hugo 網站!</description>
     </item>
     <item>
       <title>2. Structure</title>
