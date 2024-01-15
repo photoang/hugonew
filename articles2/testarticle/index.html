@@ -281,19 +281,13 @@
   <line x1="4" y1="12" x2="20" y2="12" />
   <line x1="4" y1="18" x2="16" y2="18" />
 </svg></button>
-
-
-
-
-
+   
 
 <div class="flex flex-1 h-screen relative w-full min-w-0">
-
   <section
-    class="will-change-transform transform transition-transform -translate-x-[200%] absolute top-0 left-0 lg:relative
-  lg:translate-x-0 lg:basis-[400px] h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
-    
-    
+    class="will-change-transform transform transition-transform -translate-x-[200%] absolute top-0 left-0 lg:relative lg:translate-x-0 lg:basis-[400px] h-full bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 lg:flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0"
+  >
+     
     <a href="https://photoang.github.io/articles2/">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
     </a>
@@ -324,13 +318,15 @@
 </script>
 <div class="space-y-2.5">
       
-      <a class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
-        href="/articles2/testarticle/">
-        
-        
+      <a
+        class="article block px-3 py-4  bg-slate-900 dark:bg-slate-700 text-slate-50 "
+        href="/articles2/testarticle/"
+      >
+         
         <h3 class="text-lg font-semibold mb-0.5">1.測試</h3>
         <div
-          class="text-sm  text-slate-400  line-clamp-2">
+          class="text-sm  text-slate-400  line-clamp-2"
+        >
           123
         </div>
       </a>
@@ -338,24 +334,39 @@
     </section>
 
   <div class="overflow-y-auto h-screen w-full">
-    <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
-
+    <article
+      class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto"
+    >
       
       <h1 class="!mb-2">1.測試</h1>
 
-	  
-      <p class="text-sm text-slate-500 !mb-8"> Planted January 14, 2024
-		
-	  </p>
       
-
-      
-
-      <p>123</p>
-
+      <p class="text-sm text-slate-500 !mb-8">
+        Planted January 14, 2024 
+      </p>
+        <p>123</p>
+ <div id="disqus_thread"></div>
+<script>
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "photon-3" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     </article>
   </div>
-
 </div>
 
 
@@ -363,18 +374,6 @@
 <script type="text/javascript" src="/main.js" defer></script>
 
 
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'UA-PROPERTY_ID', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
 </body>
 
 </html>
