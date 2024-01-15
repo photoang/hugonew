@@ -79,7 +79,7 @@
     <li>
       <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
         href="/articles" >
-        <span>Articles</span>
+        <span>Coding</span>
         
       </a>
     </li>
@@ -87,7 +87,7 @@
     <li>
       <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles2" >
-        <span>Articles2</span>
+        <span>PM Life</span>
         
       </a>
     </li>
@@ -356,75 +356,6 @@
 STEP 1 : 下載 Hugo 下載最新版的 Hugo : 下載連結
 完成下載後在 Windows 上開 cmd 輸入 hugo version 確認是否有安裝成功
 STEP 2 : 在桌面建立 Hugo 網站 選擇想要的 Hugo Theme : 這邊找 選擇 Download 進入到 Theme 的 Github，Clone 下該 Theme 的壓縮檔 解壓縮 Theme 檔案後複製 Theme 下的 exampleSite 拖曳到 桌面 桌面的 exampleSite 下方新增 themes 資料夾，將解壓縮後的 Theme 檔案整個 copy 進此 themes 資料夾內 在資料夾路徑中打 cmd 輸入 hugo server，打開 http://localhost:1313/連結，即可預覽你的 Hugo 網站!
-        </div>
-      </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/structure/">
-
-        
-        
-        <h3 class="text-lg font-semibold mb-0.5">2. Structure</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          Understand the structure of the theme&rsquo;s setup to create content for your website.
-Theme&rsquo;s content structure . ├── ... ├── content # Hosts all Markdown content │ ├── articles # Contains the list of markdown files for notes/posts │ │ ├── article-1.md │ │ ├── article-2.md │ │ └── article-3.md │ └── portfolio # List of portfolio projects or case studies │ ├── project-1.md │ └── project-2.md ├── data # Test files (alternatively `spec` or `tests`) │ └── stack.
-        </div>
-      </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/primary-menu/">
-
-        
-        
-        <h3 class="text-lg font-semibold mb-0.5">3. Primary Menu</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          The sidebar of the theme uses the main menu. Add all the items for your sidebar navigation in this menu.
-// config.toml
-[menu] [[menu.main]] name = &#39;Home&#39; url = &#39;/&#39; weight = 1 [[menu.main]] name = &#39;Content&#39; params.header = true weight = 2 [[menu.main]] name = &#39;Articles&#39; url = &#39;/articles&#39; weight = 3 name → Title of the menu item url → Path to navigate weight → Used to decide the order of menu items params.
-        </div>
-      </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/social-menu/">
-
-        
-        
-        <h3 class="text-lg font-semibold mb-0.5">4. Social Menu</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          The social menu can be used to configure all the social icons in the sidebar. Add links to your social media in the website config to show the icons.
-[[menu.social]] name = &#39;Twitter&#39; url = &#39;https://twitter.com&#39; weight = 1 The name of the social menu needs to be unique and should be one of the supported values.
-Supported values for the social menu item name:
-Twitter GitHub LinkedIn Instagram Mastodon Dribbble Codepen Twitch Email RSS → Configure newsletter
-        </div>
-      </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/newsletter/">
-
-        
-        
-        <h3 class="text-lg font-semibold mb-0.5">5. Newsletter</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          The theme supports a subscription to multiple newsletter providers.
-Buttondown Substack Revue Buttondown [Params.newsletter.provider] = &ldquo;buttondown&rdquo;
-Copy the action url from your buttondown admin dashboard and add it to [Params.newsletter.path] in config.toml
-Substack [Params.newsletter.provider] = &ldquo;substack&rdquo;
-Setting up substack is the easiest. Just add your substack newsletter URL (applicable for custom domains also) to [Params.newsletter.path] in config.toml
-Note that since substack doesn&rsquo;t have a native API for subscription. The theme uses the api from substackapi.
-        </div>
-      </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/google-analytics/">
-
-        
-        
-        <h3 class="text-lg font-semibold mb-0.5">6. Google Analytics</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          Digital garden theme utilizes the Hugo&rsquo;s [internal template](internal templates) for Google analytics and so both Google analytics v3 and GA v4 (gtag) are supported.
-Add your UA-PROPERTY_ID or G-MEASUREMENT_ID to config.toml
-Google Analytics v3 (analytics.js) googleAnalytics = &#39;UA-PROPERTY_ID&#39; Google Analytics v4 (gtag.js) googleAnalytics = &#39;G-MEASUREMENT_ID&#39; → Configure Metatags
-        </div>
-      </a>
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/metatags/">
-
-        
-        
-        <h3 class="text-lg font-semibold mb-0.5">7. Metatags</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          Metatags are used to provide additional information about the page, usualy used by search engines and social media websites / apps. It allows to customize your page&rsquo;s title, description, preview image and more.
-Configure default tags // config.toml
-title = &#34;Personal Digital Garden&#34; [Params] description = &#34;My Digital Garden on the Internet&#34; images = [&#39;/digital-garden-logo.png&#39;] Setting the above values will be used as default for all pages unless its overridden in a specific page&rsquo;s markdown.
         </div>
       </a>
       </div>
