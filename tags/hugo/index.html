@@ -8,7 +8,7 @@
   <link rel="icon" href="/favicon.ico">
 
   <title>
-    Articles - Angela&#39;s Site
+    Hugo - Angela&#39;s Site
   </title>
 
   <meta name="description" content="My Digital Garden on the Internet" /><meta name="generator" content="Hugo 0.121.2">
@@ -18,22 +18,22 @@
   
   
 
-  <meta property="og:title" content="Articles" />
+  <meta property="og:title" content="Hugo" />
 <meta property="og:description" content="My Digital Garden on the Internet" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://photoang.github.io/articles/" /><meta property="og:image" content="https://photoang.github.io/digital-garden-logo.png" />
+<meta property="og:url" content="https://photoang.github.io/tags/hugo/" /><meta property="og:image" content="https://photoang.github.io/digital-garden-logo.png" />
 
 
 
   <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="https://photoang.github.io/digital-garden-logo.png" /><meta name="twitter:title" content="Articles"/>
+<meta name="twitter:image" content="https://photoang.github.io/digital-garden-logo.png" /><meta name="twitter:title" content="Hugo"/>
 <meta name="twitter:description" content="My Digital Garden on the Internet"/>
 
 
-  <meta itemprop="name" content="Articles">
+  <meta itemprop="name" content="Hugo">
 <meta itemprop="description" content="My Digital Garden on the Internet">
 
-  <meta itemprop="name" content="Articles">
+  <meta itemprop="name" content="Hugo">
 <meta itemprop="description" content="My Digital Garden on the Internet">
 </head><body class="flex relative h-full min-h-screen"><aside
   class="will-change-transform transform transition-transform -translate-x-full absolute top-0 left-0 md:relative md:translate-x-0 w-3/4 md:basis-60 h-full min-h-screen p-3 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col gap-2.5 z-20 sidebar flex-shrink-0">
@@ -77,7 +77,7 @@
     </li>
     
     <li>
-      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  bg-slate-800 text-white dark:bg-slate-50 dark:text-slate-800 dark:selection:bg-slate-400 "
+      <a class="px-2 py-1.5 rounded-md text-sm flex items-center justify-between  hover:bg-slate-200 dark:hover:bg-slate-700 "
         href="/articles" >
         <span>Coding</span>
         
@@ -273,62 +273,6 @@
   <line x1="4" y1="12" x2="20" y2="12" />
   <line x1="4" y1="18" x2="16" y2="18" />
 </svg></button>
-
-
-<div class="flex flex-1 h-screen relative w-full min-w-0">
-
-  <section
-    class="w-full h-full md:min-w-[400px] md:w-1/4 bg-slate-50 dark:bg-slate-800 border-r border-slate-200 dark:border-slate-700 flex flex-col py-3 overflow-y-auto scroll-area flex-shrink-0">
-    <a href="https://photoang.github.io/articles/">
-      <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">Articles</h2>
-    </a>
-<label class="mb-2 block px-2">
-  <span></span>
-  <input type="text" placeholder="Search articles" class="searchInput bg-white rounded px-2 py-1 w-full border" />
-</label>
-<script>
-  const searchElt = document.querySelector('.searchInput')
-  if (searchElt) {
-    searchElt.addEventListener('input', evt => {
-      const value = evt.target.value || '';
-
-      const articles = document.querySelectorAll('.article')
-      if (!value) {
-        articles.forEach(article => article.classList.remove('hidden'))
-      } else {
-        articles.forEach(article => article.classList.add('hidden'))
-        Array.from(articles).filter(article => {
-          const title = article.querySelector('h3')
-          if (!title) return false;
-
-          return title.textContent.toLowerCase().includes(value.toLowerCase())
-        }).forEach(article => article.classList.remove('hidden'))
-      }
-    })
-  }
-</script>
-<div class="space-y-2.5">
-      <a class="article block px-3 py-4 hover:bg-slate-200 dark:hover:bg-slate-700" href="/articles/github-with-hugo/">
-
-        
-        
-        <h3 class="text-lg font-semibold mb-0.5">1. 快速在Github架設Hugo網站</h3>
-        <div class="text-sm text-slate-500 dark:text-slate-400 line-clamp-2">
-          這篇要分享無痛快速在 Github 架設 Hugo 網站，身為文組程式小白，在網路上查詢大家分享如何在 Github 架設 Hugo 網站，看似很簡單的上架流程試錯了 N 次，最後看 Hahow 的課程才順利架站成功，分享下最簡易版本的上架流程，也推薦想更深入了解的程式小白購買課程~
-STEP 1 : 下載 Hugo 下載最新版的 Hugo : 下載連結
-完成下載後在 Windows 上開 cmd 輸入 hugo version 確認是否有安裝成功
-&gt;&gt;hugo version STEP 2 : 在桌面建立 Hugo 網站 選擇想要的 Hugo Theme : 這邊找 選擇 Download 進入到 Theme 的 Github，Clone 下該 Theme 的壓縮檔 解壓縮 Theme 檔案後複製 Theme 下的 exampleSite 資料夾 拖曳到 桌面 在桌面的 exampleSite 資料夾 下方新增一個 themes 資料夾，將上一個步驟解壓縮後的 Theme 檔案整個 copy 進此 themes 資料夾內 在資料夾路徑中打 cmd 輸入 hugo server，打開 http://localhost:1313/連結，即可預覽你的 Hugo 網站!
-        </div>
-      </a>
-      </div>
-  </section>
-
-  <main class="hidden md:grid h-screen place-items-center flex-1">
-    <p class="text-center p-8 text-2xl text-slate-300 dark:text-slate-700">Select a post to read</p>
-  </main>
-
-</div>
-
 
     
   </div>
