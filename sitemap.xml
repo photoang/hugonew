@@ -3,18 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://photoang.github.io/articles/</loc>
-    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://photoang.github.io/tags/github/</loc>
-    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://photoang.github.io/articles/github-vs-wordpress/</loc>
+    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://photoang.github.io/</loc>
-    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://photoang.github.io/tags/hugo/</loc>
-    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://photoang.github.io/tags/</loc>
+    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://photoang.github.io/tags/wordpress/</loc>
+    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://photoang.github.io/tags/hugo/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://photoang.github.io/articles/github-with-hugo/</loc>
