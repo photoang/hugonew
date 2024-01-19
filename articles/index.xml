@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articles on Angela&#39;s Site</title>
-    <link>https://photoang.github.io/articles/</link>
+    <link>https://iangg.com/articles/</link>
     <description>Recent content in Articles on Angela&#39;s Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
     <lastBuildDate>Thu, 18 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://photoang.github.io/articles/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://iangg.com/articles/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub及WordPress使用心得比較</title>
-      <link>https://photoang.github.io/articles/github-vs-wordpress/</link>
+      <link>https://iangg.com/articles/github-vs-wordpress/</link>
       <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://photoang.github.io/articles/github-vs-wordpress/</guid>
+      <guid>https://iangg.com/articles/github-vs-wordpress/</guid>
       <description>一直以來我都在 WordPress 架站寫文章，但看到新的平台總是手癢又會去註冊帳號，所以 Tumblr、方格子、Medium、痞客邦…等等平台我都使用過，實際上文章產出的狀況很差，但就是很愛到處用用不同寫作平台，最近又開始把鹹豬手伸到 GitHub，這篇分享我在 GitHub 及 WordPress 架站使用比較心得。&#xA;GitHub GitHub 最主要吸引人的地方在於成本低以及網速快，適合做個人部落格這種靜態網站，而對我來說使用 GitHub 最不方便的就是換主機操作，像我這種習慣使用桌機的人，只要到異地就會很不方便更新文章。&#xA;優點： 網站速度快 費用低而且沒有廣告 缺點： 寫作跟修改佈景主題都需要程式能力 原始檔都是公開的 (也是可以付費買 Private 的) 需要在電腦端進行編輯後更新 GitHub WordPress WordPress 是可以做成動態網站(收集會員資料或是互動性高的網站)，如果以單純經營個人部落格來說，最大的優點就是有後台可以及時更新文章，以及他強大的編輯器，可以產出各式各樣的內容格式排版，但跟 GitHub 相比大缺點是成本較高。&#xA;優點： 主題選擇性更多 有視覺化的編輯器，寫作跟修改主題都很方便 登入後台隨時可以更新文章 缺點： 費用貴 如果安裝很多 Plugin 會影響網速 我的使用心得總結 我目前而言還是比較習慣 WordPress 強大的編輯器，但因為只是寫寫非營利導向的文章，所以一直覺得每個月付的託管費實在很浪費，開始在 GitHub 建立網站後雖然要自己打 Markdown 語法，但覺得使用上還算可以接受，未來可能會慢慢從 WordPress 轉到從 GitHub 發表文章。</description>
     </item>
     <item>
       <title>快速在Github架設Hugo網站</title>
-      <link>https://photoang.github.io/articles/github-with-hugo/</link>
+      <link>https://iangg.com/articles/github-with-hugo/</link>
       <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://photoang.github.io/articles/github-with-hugo/</guid>
+      <guid>https://iangg.com/articles/github-with-hugo/</guid>
       <description>這篇要分享無痛快速在 Github 架設 Hugo 網站，身為文組程式小白，在網路上查詢大家分享如何在 Github 架設 Hugo 網站，看似很簡單的上架流程試錯了 N 次，最後看 Hahow 的課程才順利架站成功，分享下最簡易版本的上架流程，也推薦想更深入了解的程式小白購買課程~&#xA;STEP 1 : 下載 Hugo 下載最新版的 Hugo : 下載連結&#xA;完成下載後在 Windows 上開 cmd 輸入 hugo version 確認是否有安裝成功&#xA;&amp;gt;&amp;gt;hugo version STEP 2 : 在桌面建立 Hugo 網站 選擇想要的 Hugo Theme : 這邊找 選擇 Download 進入到 Theme 的 Github，Clone 下該 Theme 的壓縮檔 解壓縮 Theme 檔案後複製 Theme 下的 exampleSite 資料夾 拖曳到 桌面 在桌面的 exampleSite 資料夾 下方新增一個 themes 資料夾，將上一個步驟解壓縮後的 Theme 檔案整個 copy 進此 themes 資料夾內 在資料夾路徑中打 cmd 輸入 hugo server，打開 http://localhost:1313/連結，即可預覽你的 Hugo 網站!</description>
     </item>
   </channel>
