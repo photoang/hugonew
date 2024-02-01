@@ -2,10 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Angela&#39;s Site</title>
-    <link>https://photoang.github.io/categories/</link>
+    <link>https://iangg.com/categories/</link>
     <description>Recent content in Categories on Angela&#39;s Site</description>
+    <image>
+      <title>Angela&#39;s Site</title>
+      <url>https://iangg.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://iangg.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-tw</language>
-    <atom:link href="https://photoang.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <atom:link href="https://iangg.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,34 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://iangg.com/articles/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+    <loc>https://iangg.com/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iangg.com/tags/github/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iangg.com/articles/github-vs-wordpress/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iangg.com/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iangg.com/tags/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://iangg.com/tags/wordpress/</loc>
-    <lastmod>2024-01-18T00:00:00+00:00</lastmod>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://iangg.com/tags/hugo/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iangg.com/articles/github-with-hugo/</loc>
+    <loc>https://iangg.com/posts/</loc>
     <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iangg.com/diary/</loc>
+    <loc>https://iangg.com/tags/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iangg.com/portfolio/</loc>
+    <loc>https://iangg.com/posts/hugo-with-github/</loc>
+    <lastmod>2024-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://iangg.com/stack/</loc>
+    <loc>https://iangg.com/categories/</loc>
   </url>
 </urlset>
