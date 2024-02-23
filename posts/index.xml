@@ -98,11 +98,11 @@ STEP 1 : 下載 Hugo 下載最新版的 Hugo : 下載連結
 &amp;gt;&amp;gt;hugo version STEP 2 : 在桌面建立 Hugo 網站 選擇想要的 Hugo Theme : 這邊找 選擇 Download 進入到 Theme 的 Github，Clone 下該 Theme 的壓縮檔 解壓縮 Theme 檔案後複製 Theme 下的 exampleSite 資料夾 拖曳到 桌面 在桌面的 exampleSite 資料夾 下方新增一個 themes 資料夾，將上一個步驟解壓縮後的 Theme 檔案整個 copy 進此 themes 資料夾內 在資料夾路徑中打 cmd 輸入 hugo server，打開 http://localhost:1313/連結，即可預覽你的 Hugo 網站!</description>
     </item>
     <item>
-      <title>Gallery</title>
+      <title>gallery</title>
       <link>https://iangg.com/posts/gallery/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://iangg.com/posts/gallery/</guid>
-      <description></description>
+      <description>&lt;!DOCTYPE html&gt;</description>
     </item>
   </channel>
 </rss>
