@@ -158,23 +158,5 @@ STEP 1 : 下載 Hugo 下載最新版的 Hugo : 下載連結
 完成下載後在 Windows 上開 cmd 輸入 hugo version 確認是否有安裝成功
 &amp;gt;&amp;gt;hugo version STEP 2 : 在桌面建立 Hugo 網站 選擇想要的 Hugo Theme : 這邊找 選擇 Download 進入到 Theme 的 Github，Clone 下該 Theme 的壓縮檔 解壓縮 Theme 檔案後複製 Theme 下的 exampleSite 資料夾 拖曳到 桌面 在桌面的 exampleSite 資料夾 下方新增一個 themes 資料夾，將上一個步驟解壓縮後的 Theme 檔案整個 copy 進此 themes 資料夾內 在資料夾路徑中打 cmd 輸入 hugo server，打開 http://localhost:1313/連結，即可預覽你的 Hugo 網站!</description>
     </item>
-    <item>
-      <title>About me</title>
-      <link>https://iangg.com/posts/about-me/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://iangg.com/posts/about-me/</guid>
-      <description>Hi! 我是 Angela，觀迎來到我的 Blog!👋
-喜歡文字，所以藉由這個部落格斷斷續續記錄我的生活。
-關於我 ▪︎ 8 年級生，有一個寶貝女兒
-▪︎ 喜歡: 紀錄、攝影、手作
-▪︎ 最常花時間研究: 網站架設、投資
-▪︎ 最喜歡的 3 本書:
-1. 黑馬思維：哈佛最推崇的人生計畫，教你成就更好的自己
-2. 別做熱愛的事，要做真實的自己：一本重新思考人生與工作的改變之書
-3. 逆向工程，你我都能變優秀的祕訣：全球頂尖創新者、運動員、藝術家共同實證
-▪︎ 目前正職是生活，副業是在科技業做專案管理
-關於這個網站 - 2024 - ▪︎ 2024 年架設，不確定部落格主題是什麼，大概就是紀錄生活
-▪︎ 使用 Github 搭配 Hugo，主題是 Papermod，使用 VSC 寫文</description>
-    </item>
   </channel>
 </rss>
