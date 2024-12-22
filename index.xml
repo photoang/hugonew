@@ -11,8 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://iangg.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>30後轉職的躺平心態</title>
+      <link>https://iangg.com/posts/30%E5%BE%8C%E8%BD%89%E8%81%B7%E7%9A%84%E8%BA%BA%E5%B9%B3%E5%BF%83%E6%85%8B/</link>
+      <pubDate>Fri, 20 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://iangg.com/posts/30%E5%BE%8C%E8%BD%89%E8%81%B7%E7%9A%84%E8%BA%BA%E5%B9%B3%E5%BF%83%E6%85%8B/</guid>
+      <description>轉職到外商後，發現大公司真的是臥虎藏龍，更多的是平步青雲的人們，才 20 幾歲就已經業務熟練並放眼布局升遷主管職，讓我非常驚訝，在我眼中他們都是閃閃發光的人。
+中年轉職的躺平心態 最近在 matters 上看到一篇文章，寫一名自由接案人的轉職歷程，如何遭遇困境，如何調整自己最後突破，如何達到心流享受生命，看得令人熱血沸騰，彷彿身為上班族的我簡直是在行屍走肉浪費人生。 但閱文的同時一部分(很大一部分)的我又覺得:
+可是，我也挺喜歡現在的自己。
+每天朝九晚五敲著鍵盤的日子，我也挺喜歡這樣的生活，
+是不是年少輕狂的我已經死光了呢？
+30 歲轉職後的躺平心態，大概就是我現在這樣，中年轉職業務上手不會太吃力，與同事聊天也能接得上話，最重點的是，看那些同事爭搶上位的時候，可以置身事外，沒有升遷的慾望，只把注意力存留在體驗工作的小事情，例如做了什麼新的業務、認識了哪個新同事，這些在年輕時轉職不會專注的事情。
+我不是那些發光的人，但我感覺也挺喜歡自己。
+前陣子公司安排了跟高階主管的 group meeting，請主管給新人一些精神喊話，主管說：
+you have to enjoy your life, if you&amp;rsquo;re only focus on chasing goals, that&amp;rsquo;s just pathetic.
+暫時的躺平 慾望跟進步常常是相輔相成的，到了 30 歲我忽然瞭解到，某些慾望是永無止盡的，像是薪資跟職位。
+也許我的躺平也只是暫時的，過一陣子之後我的焦慮就會追上現在的安逸，開始想，要是某天被公司砍了人生該何去何從。也許會有這一天吧，但現在的我只想過好這個禮拜，過好這個月，想抽空做些自己想做的事，想多陪陪女兒。</description>
+    </item>
     <item>
       <title>台中北屯咖啡廳 禾米咖啡</title>
       <link>https://iangg.com/posts/%E5%8F%B0%E4%B8%AD%E5%8C%97%E5%B1%AF%E5%92%96%E5%95%A1%E5%BB%B3-%E7%A6%BE%E7%B1%B3%E5%92%96%E5%95%A1/</link>
@@ -119,6 +136,13 @@ NA
 STEP 1 : 下載 Hugo 下載最新版的 Hugo : 下載連結
 完成下載後在 Windows 上開 cmd 輸入 hugo version 確認是否有安裝成功
 &amp;gt;&amp;gt;hugo version STEP 2 : 在桌面建立 Hugo 網站 選擇想要的 Hugo Theme : 這邊找 選擇 Download 進入到 Theme 的 Github，Clone 下該 Theme 的壓縮檔 解壓縮 Theme 檔案後複製 Theme 下的 exampleSite 資料夾 拖曳到 桌面 在桌面的 exampleSite 資料夾 下方新增一個 themes 資料夾，將上一個步驟解壓縮後的 Theme 檔案整個 copy 進此 themes 資料夾內 在資料夾路徑中打 cmd 輸入 hugo server，打開 http://localhost:1313/連結，即可預覽你的 Hugo 網站!</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>https://iangg.com/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://iangg.com/aboutme/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
