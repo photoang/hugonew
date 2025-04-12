@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Yun&#39;s Site</title>
+    <link>/</link>
+    <description>Recent content on Yun&#39;s Site</description>
+    <image>
+      <title>Yun&#39;s Site</title>
+      <url>https://i.imgur.com/1RKRr7x.png</url>
+      <link>https://i.imgur.com/1RKRr7x.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/aboutme/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
