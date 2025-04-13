@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Yun&#39;s Site</title>
-    <link>yundaily.com/categories/</link>
+    <link>https://yundaily.com/categories/</link>
     <description>Recent content in Categories on Yun&#39;s Site</description>
     <image>
       <title>Yun&#39;s Site</title>
@@ -12,12 +12,12 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="yundaily.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yundaily.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>架站心得</title>
-      <link>yundaily.com/categories/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/</link>
+      <link>https://yundaily.com/categories/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>yundaily.com/categories/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/</guid>
+      <guid>https://yundaily.com/categories/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/</guid>
       <description></description>
     </item>
   </channel>
