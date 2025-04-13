@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Yun&#39;s Site</title>
-    <link>//localhost:1313/</link>
+    <link>yundaily.com/</link>
     <description>Recent content on Yun&#39;s Site</description>
     <image>
       <title>Yun&#39;s Site</title>
@@ -12,23 +12,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="yundaily.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>回歸Github x Hugo網誌</title>
-      <link>//localhost:1313/posts/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</link>
+      <link>yundaily.com/posts/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</guid>
+      <guid>yundaily.com/posts/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</guid>
       <description>byebye Wordpress 在架設了 N 個網站之後，本月我還是下定決定跟 Wordpress 說掰掰了，回歸到使用 Github 搭配 Hugo 的組合，釐清自己的文章內容與定位實在很重要，因為我並沒有明確的網站方向以及營利目標，只是單純記錄生活的網誌卻要花費每月 600 多塊的平台費用，對我來說還是覺得太貴。
 同時雖然使用 Cloudways 創建的 Wordpress 網站 SEO 表現很好，但從 Google search console 結果來看我的文章內容確認無法導流（太冷門的內容），因此我含淚跟 Wordpress 說 byebye。
 接納 Hugo 網站的不便 首先因為我是純文科生，使用 Github 架設 Hugo 網站，從架設網站、修改網站 CSS 到寫文章都需要程式底子，沒有直接用 Wordpress 來的方便省時間。
 再來是從之前的測試結果來看，Hugo 網站如果放置太多圖片會非常容易影響網站速度，PageSpeed Insights 檢測出來的網速大幅低於用 Cloudways 架設的網速。
+Hugo 還是有我喜歡的地方 我很喜歡超方便的預覽功能，當然如果是用 WD 這點是輕鬆達成，但在 Hugo 這樣複雜的寫文限制下能直接用 hugo server 預覽上傳後的網頁已經非常方便。
+最大的優點當然是費用便宜，自訂網域每月只需要約台幣 60 塊，即使升級 Github Pro 也只需要每月 180 塊 total 費用，對於非營利網站這價格非常友善。
 從這裡出發記錄我的生活 就從這裡紀錄所有想分享的生活吧!</description>
     </item>
     <item>
       <title>About me</title>
-      <link>//localhost:1313/aboutme/</link>
+      <link>yundaily.com/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/aboutme/</guid>
+      <guid>yundaily.com/aboutme/</guid>
       <description></description>
     </item>
   </channel>
