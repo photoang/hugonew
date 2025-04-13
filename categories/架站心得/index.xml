@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Yun&#39;s Site</title>
-    <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on Yun&#39;s Site</description>
+    <title>架站心得 on Yun&#39;s Site</title>
+    <link>//localhost:1313/categories/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/</link>
+    <description>Recent content in 架站心得 on Yun&#39;s Site</description>
     <image>
       <title>Yun&#39;s Site</title>
       <url>https://i.imgur.com/1RKRr7x.png</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>回歸Github x Hugo網誌</title>
       <link>//localhost:1313/posts/%E5%9B%9E%E6%AD%B8github-x-hugo%E7%B6%B2%E8%AA%8C/</link>
