@@ -10,28 +10,35 @@
       <link>https://i.imgur.com/1RKRr7x.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Github</title>
       <link>https://yundaily.com/tags/github/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://yundaily.com/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
       <link>https://yundaily.com/tags/hugo/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://yundaily.com/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
-      <title>網誌心得</title>
-      <link>https://yundaily.com/tags/%E7%B6%B2%E8%AA%8C%E5%BF%83%E5%BE%97/</link>
-      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/tags/%E7%B6%B2%E8%AA%8C%E5%BF%83%E5%BE%97/</guid>
+      <title>Papermod</title>
+      <link>https://yundaily.com/tags/papermod/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/tags/papermod/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>架站心得</title>
+      <link>https://yundaily.com/tags/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/tags/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/</guid>
       <description></description>
     </item>
     <item>
@@ -39,6 +46,13 @@
       <link>https://yundaily.com/tags/%E7%B6%B2%E8%B7%AF%E6%9E%B6%E8%A8%AD/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://yundaily.com/tags/%E7%B6%B2%E8%B7%AF%E6%9E%B6%E8%A8%AD/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>網誌心得</title>
+      <link>https://yundaily.com/tags/%E7%B6%B2%E8%AA%8C%E5%BF%83%E5%BE%97/</link>
+      <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/tags/%E7%B6%B2%E8%AA%8C%E5%BF%83%E5%BE%97/</guid>
       <description></description>
     </item>
   </channel>

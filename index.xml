@@ -10,9 +10,20 @@
       <link>https://i.imgur.com/1RKRr7x.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 13 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <language>zh-tw</language>
+    <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Papermod 架站美化</title>
+      <link>https://yundaily.com/posts/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</guid>
+      <description>留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cudis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
+使用utterances，copy 代碼後填上自己的 repo，貼在 themes/layouts/partials/comments.html 內即可使用。
+友鏈 參考Aimer&amp;rsquo;s Blog的 code 架設。
+目前還沒有網友，但這個版型很好看，之後也可以當作放作品集的頁面。
+持續增加中...</description>
+    </item>
     <item>
       <title>回歸Github x Hugo網誌</title>
       <link>https://yundaily.com/posts/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</link>
@@ -31,7 +42,15 @@ Hugo 還是有我喜歡的地方 我很喜歡超方便的預覽功能，當然�
       <link>https://yundaily.com/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://yundaily.com/aboutme/</guid>
-      <description></description>
+      <description>寫在這裡 這個部落格主要是記錄自己的生活及學習筆記，內容可能涵蓋前端程式、投資、專案管理、職場心得、媽媽經。
+關於 Yun 30+的中年婦女，在外商擔任小小職員，有個可愛女兒。晉升媽媽身份以後，每天約有 1 個小時不到的獨處時光。</description>
+    </item>
+    <item>
+      <title>Friends</title>
+      <link>https://yundaily.com/friend/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/friend/</guid>
+      <description>testtest</description>
     </item>
   </channel>
 </rss>
