@@ -46,5 +46,7 @@
     <loc>https://yundaily.com/archives/</loc>
   </url><url>
     <loc>https://yundaily.com/friend/</loc>
+  </url><url>
+    <loc>https://yundaily.com/search/</loc>
   </url>
 </urlset>

@@ -18,12 +18,13 @@
       <link>https://yundaily.com/posts/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
       <guid>https://yundaily.com/posts/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</guid>
-      <description>留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cudis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
+      <description>1. 留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cudis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
 使用utterances，copy 代碼後填上自己的 repo，貼在 themes/layouts/partials/comments.html 內即可使用。
-友鏈 參考Aimer&amp;rsquo;s Blog的 code 架設。
+2. 友鏈 參考Aimer&amp;rsquo;s Blog的 code 架設。
 目前還沒有網友，但這個版型很好看，之後也可以當作放作品集的頁面。
-Buy me a coffee 使用bmc-button by isqua shortcode.
-持續增加中...</description>
+3. Buy me a coffee 使用bmc-button by isqua shortcode。
+4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄
+---showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 持續增加中...</description>
     </item>
   </channel>
 </rss>
