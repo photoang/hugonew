@@ -15,22 +15,23 @@
     <atom:link href="https://yundaily.com/categories/%E6%9E%B6%E7%AB%99%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Papermod 架站美化</title>
-      <link>https://yundaily.com/posts/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</link>
+      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/posts/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</guid>
-      <description>1. 留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cudis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
+      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</guid>
+      <description>1. 留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cusdis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
 使用utterances，copy 代碼後填上自己的 repo，貼在 themes/layouts/partials/comments.html 內即可使用。
 2. 友鏈 參考Aimer&amp;rsquo;s Blog的 code 架設。
 目前還沒有網友，但這個版型很好看，之後也可以當作放作品集的頁面。
 3. Buy me a coffee 使用bmc-button by isqua shortcode。
-4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄
----showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 持續增加中...</description>
+如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target=&amp;quot;_blank&amp;quot;。
+&amp;lt;aclass=&amp;#34;hugo-shortcodes-bmc-button&amp;#34;href=&amp;#34;{{ $url | safeURL }}&amp;#34;target=&amp;#34;_blank&amp;#34;&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
+---showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 5.</description>
     </item>
     <item>
       <title>回歸Github x Hugo網誌</title>
-      <link>https://yundaily.com/posts/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</link>
+      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/posts/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</guid>
+      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</guid>
       <description>byebye Wordpress 在架設了 N 個網站之後，本月我還是下定決定跟 Wordpress 說掰掰了，回歸到使用 Github 搭配 Hugo 的組合，釐清自己的文章內容與定位實在很重要，因為我並沒有明確的網站方向以及營利目標，只是單純記錄生活的網誌卻要花費每月 600 多塊的平台費用，對我來說還是覺得太貴。
 同時雖然使用 Cloudways 創建的 Wordpress 網站 SEO 表現很好，但從 Google search console 結果來看我的文章內容確認無法導流（太冷門的內容），因此我含淚跟 Wordpress 說 byebye。
 接納 Hugo 網站的不便 首先因為我是純文科生，使用 Github 架設 Hugo 網站，從架設網站、修改網站 CSS 到寫文章都需要程式底子，沒有直接用 Wordpress 來的方便省時間。
