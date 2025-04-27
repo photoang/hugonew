@@ -1,0 +1,9 @@
+.post-entry {
+  position: relative;
+  margin-bottom: 3px;
+  padding: 3px;
+  background: 3px;
+  border-radius: 3px;
+  transition: transform 0.1s;
+  border: 1px solid 3px;
+}

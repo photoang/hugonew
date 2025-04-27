@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>文章 on Yun&#39;s Site</title>
-    <link>https://yundaily.com/posts/</link>
-    <description>Recent content in 文章 on Yun&#39;s Site</description>
+    <title>生活隨筆 on Yun&#39;s Site</title>
+    <link>http://localhost:57688/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/</link>
+    <description>Recent content in 生活隨筆 on Yun&#39;s Site</description>
     <image>
       <title>Yun&#39;s Site</title>
       <url>https://i.imgur.com/1RKRr7x.png</url>
@@ -11,7 +11,6 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yundaily.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57688/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

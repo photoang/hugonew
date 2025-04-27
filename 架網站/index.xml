@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yun&#39;s Site</title>
-    <link>https://yundaily.com/</link>
-    <description>Recent content on Yun&#39;s Site</description>
+    <title>架網站 on Yun&#39;s Site</title>
+    <link>http://localhost:57688/%E6%9E%B6%E7%B6%B2%E7%AB%99/</link>
+    <description>Recent content in 架網站 on Yun&#39;s Site</description>
     <image>
       <title>Yun&#39;s Site</title>
       <url>https://i.imgur.com/1RKRr7x.png</url>
@@ -11,13 +11,13 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://yundaily.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:57688/%E6%9E%B6%E7%B6%B2%E7%AB%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Papermod 架站美化</title>
-      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</link>
+      <link>http://localhost:57688/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</link>
       <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</guid>
+      <guid>http://localhost:57688/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</guid>
       <description>1. 留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cusdis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
 使用utterances，copy 代碼後填上自己的 repo，貼在 themes/layouts/partials/comments.html 內即可使用。
 2. 友鏈 參考Aimer&amp;rsquo;s Blog的 code 架設。
@@ -29,9 +29,9 @@
     </item>
     <item>
       <title>回歸Github x Hugo網誌</title>
-      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</link>
+      <link>http://localhost:57688/%E6%9E%B6%E7%B6%B2%E7%AB%99/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</link>
       <pubDate>Sun, 13 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</guid>
+      <guid>http://localhost:57688/%E6%9E%B6%E7%B6%B2%E7%AB%99/%E5%9B%9E%E6%AD%B8github-hugo%E7%B6%B2%E8%AA%8C/</guid>
       <description>byebye Wordpress 在架設了 N 個網站之後，本月我還是下定決定跟 Wordpress 說掰掰了，回歸到使用 Github 搭配 Hugo 的組合，釐清自己的文章內容與定位實在很重要，因為我並沒有明確的網站方向以及營利目標，只是單純記錄生活的網誌卻要花費每月 600 多塊的平台費用，對我來說還是覺得太貴。
 同時雖然使用 Cloudways 創建的 Wordpress 網站 SEO 表現很好，但從 Google search console 結果來看我的文章內容確認無法導流（太冷門的內容），因此我含淚跟 Wordpress 說 byebye。
 接納 Hugo 網站的不便 首先因為我是純文科生，使用 Github 架設 Hugo 網站，從架設網站、修改網站 CSS 到寫文章都需要程式底子，沒有直接用 Wordpress 來的方便省時間。
@@ -41,19 +41,11 @@ Hugo 還是有我喜歡的地方 我很喜歡超方便的預覽功能，當然�
 從這裡出發記錄我的生活 就從這裡紀錄所有想分享的生活吧!</description>
     </item>
     <item>
-      <title>About me</title>
-      <link>https://yundaily.com/aboutme/</link>
+      <title></title>
+      <link>http://localhost:57688/%E6%9E%B6%E7%B6%B2%E7%AB%99/20250426-test/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/aboutme/</guid>
-      <description>寫在這裡 這個部落格主要是記錄自己的生活及學習筆記，內容可能涵蓋前端程式、投資、專案管理、職場心得、媽媽經。
-關於 Yun 30+的中年婦女，在外商擔任小小職員，有個可愛女兒。晉升媽媽身份以後，每天約有 1 個小時不到的獨處時光。</description>
-    </item>
-    <item>
-      <title>Friends</title>
-      <link>https://yundaily.com/friend/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/friend/</guid>
-      <description>testtest</description>
+      <guid>http://localhost:57688/%E6%9E%B6%E7%B6%B2%E7%AB%99/20250426-test/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
