@@ -1,5 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-  console.log("📦 JS 已載入");
+  // 簡單裝置判斷（只讓桌機觸發）
+  const isDesktop = window.innerWidth >= 1024;
+
+  if (!isDesktop) {
+    console.log("🚫 非桌機裝置，不啟用圖片放大功能");
+    return;
+  }
+
+  console.log("🖥️ 啟用桌機圖片放大功能");
 
   const images = document.querySelectorAll(".click-to-zoom");
   console.log("找到圖片數量：", images.length);
