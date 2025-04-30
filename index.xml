@@ -14,6 +14,20 @@
     <lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Papermod 架站美化</title>
+      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</link>
+      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</guid>
+      <description>1. 留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cusdis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
+使用utterances，copy 代碼後填上自己的 repo，貼在 themes/layouts/partials/comments.html 內即可使用。
+2. 友鏈 參考Aimer&amp;rsquo;s Blog的 code 架設。
+目前還沒有網友，但這個版型很好看，之後也可以當作放作品集的頁面。
+3. Buy me a coffee 使用bmc-button by isqua shortcode。
+如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target=&amp;quot;_blank&amp;quot;。
+&amp;lt;aclass=&amp;#34;hugo-shortcodes-bmc-button&amp;#34;href=&amp;#34;{{ $url | safeURL }}&amp;#34;target=&amp;#34;_blank&amp;#34;&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
+---showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 5.</description>
+    </item>
+    <item>
       <title>走什麼霉運</title>
       <link>https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E8%B5%B0%E4%BB%80%E9%BA%BC%E9%9C%89%E9%81%8B/</link>
       <pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate>
@@ -28,20 +42,6 @@
 整理 最近在讓自己刻意喜歡整理這件事，真的好不容易。
 為什麼有些人天生就喜歡整理?
 我努力嘗試將櫃子清空或是排整齊，發現真的有一絲神清氣爽的感覺，但那感覺大概就維持一秒吧，我知道很快這片區域可能又會被灰塵蒙上一筆灰，乾淨和多巴胺一樣都是很短暫的。</description>
-    </item>
-    <item>
-      <title>Papermod 架站美化</title>
-      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</link>
-      <pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/</guid>
-      <description>1. 留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cusdis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
-使用utterances，copy 代碼後填上自己的 repo，貼在 themes/layouts/partials/comments.html 內即可使用。
-2. 友鏈 參考Aimer&amp;rsquo;s Blog的 code 架設。
-目前還沒有網友，但這個版型很好看，之後也可以當作放作品集的頁面。
-3. Buy me a coffee 使用bmc-button by isqua shortcode。
-如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target=&amp;quot;_blank&amp;quot;。
-&amp;lt;aclass=&amp;#34;hugo-shortcodes-bmc-button&amp;#34;href=&amp;#34;{{ $url | safeURL }}&amp;#34;target=&amp;#34;_blank&amp;#34;&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
----showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 5.</description>
     </item>
     <item>
       <title>回歸Github x Hugo網誌</title>

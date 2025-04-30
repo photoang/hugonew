@@ -1,0 +1,13 @@
+.postnew {
+  position: relative;
+  margin-bottom: 2px;
+  padding: 2px;
+  background: var(--entry);
+  border-radius: 2px;
+  transition: transform 0.1s;
+  border: 1px solid var(--border);
+}
+
+.body {
+  background-color: rgb(53, 61, 131);
+}
