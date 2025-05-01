@@ -24,15 +24,24 @@
 目前還沒有網友，但這個版型很好看，之後也可以當作放作品集的頁面。
 3. Buy me a coffee 使用bmc-button by isqua shortcode。
 如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target=&amp;quot;_blank&amp;quot;。
-&amp;lt;aclass=&amp;#34;hugo-shortcodes-bmc-button&amp;#34;href=&amp;#34;{{ $url | safeURL }}&amp;#34;target=&amp;#34;_blank&amp;#34;&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
+&amp;lt;a class=&amp;#34;hugo-shortcodes-bmc-button&amp;#34; href=&amp;#34;{{ $url | safeURL }}&amp;#34; target=&amp;#34;_blank&amp;#34; &amp;gt;&amp;lt;/a&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
 ---showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 5.</description>
     </item>
     <item>
-      <title>前端入門-Codepen</title>
-      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%96%80-codepen/</link>
+      <title>學習筆記-HTML基礎</title>
+      <link>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-html%E5%9F%BA%E7%A4%8E/</link>
       <pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/%E5%89%8D%E7%AB%AF%E5%85%A5%E9%96%80-codepen/</guid>
-      <description></description>
+      <guid>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-html%E5%9F%BA%E7%A4%8E/</guid>
+      <description>Emmet 載入 在 VSC 或是 Codepen 要載入 Emmet 套件，可以直接打&amp;quot;!&amp;quot;+&amp;ldquo;Tab&amp;quot;鍵， 就會立馬出現以下 Code
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;en&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34; /&amp;gt; #如果沒有加這行在IE瀏覽器會出現亂碼 &amp;lt;meta http-equiv=&amp;#34;X-UA-Compatible&amp;#34; content=&amp;#34;IE=edge&amp;#34; /&amp;gt; #針對手機、Ipad做螢幕解析度調整 &amp;lt;meta name=&amp;#34;viewport&amp;#34; content=&amp;#34;width=device-width, initial-scale=1.0&amp;#34; /&amp;gt; #讓IE更新到最新版本 &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt;&amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 按&amp;quot;P*2&amp;quot;就會自動載入下方 code，如果*3 就會一次出現三個
+&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; 列表標籤 呈現效果會是:
+● 項目一
+● 項目二
+● 項目三
+1.項目一
+2.項目二
+3.項目三
+&amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;項目一&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;項目二&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;項目三&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;ol&amp;gt; &amp;lt;li&amp;gt;項目一&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;項目二&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;項目三&amp;lt;/li&amp;gt; &amp;lt;/ol&amp;gt; li 可以用來包 a 連結 也可以用來包 img 圖片</description>
     </item>
     <item>
       <title>走什麼霉運</title>

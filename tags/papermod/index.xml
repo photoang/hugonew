@@ -24,7 +24,7 @@
 目前還沒有網友，但這個版型很好看，之後也可以當作放作品集的頁面。
 3. Buy me a coffee 使用bmc-button by isqua shortcode。
 如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target=&amp;quot;_blank&amp;quot;。
-&amp;lt;aclass=&amp;#34;hugo-shortcodes-bmc-button&amp;#34;href=&amp;#34;{{ $url | safeURL }}&amp;#34;target=&amp;#34;_blank&amp;#34;&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
+&amp;lt;a class=&amp;#34;hugo-shortcodes-bmc-button&amp;#34; href=&amp;#34;{{ $url | safeURL }}&amp;#34; target=&amp;#34;_blank&amp;#34; &amp;gt;&amp;lt;/a&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
 ---showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 5.</description>
     </item>
   </channel>
