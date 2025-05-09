@@ -11,8 +11,26 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/tags/%E5%89%8D%E7%AB%AF%E7%A8%8B%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>學習筆記-CSS基礎</title>
+      <link>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-css%E5%9F%BA%E7%A4%8E/</link>
+      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-css%E5%9F%BA%E7%A4%8E/</guid>
+      <description>標籤選擇器 標籤選擇器 {
+屬性: 設定值;
+屬性: 設定值;
+}
+例如以下
+h1 { color: blue; font-size: 50px; } CSS 除錯分析 檔案路徑是否正確 單字有沒有拼錯 格式是否正確 在 Chrome 瀏覽器頁面按右鍵&amp;raquo;檢查 如果 CSS code 當中有寫錯導致無法辨識，在 Element 元素就會出現畫線的錯誤顯示 如下: 擬態選擇器 hover 除了標籤選擇器以外還可以使用擬態選擇器，使用情境：
+a 標籤文字設定成黑色，但希望當滑鼠滑過去時文字可以變成紅色
+這樣可以寫成這樣
+a { color: black; } a:hover { color: red; } /*讓滑鼠按下時變成blue的話可以用active*/ a:active { color: red; } 類別選擇器 如果有好幾個 P 段落，但其中某一個段落想要使用客製化 CSS file
+INDEX.HTML 設定如下
+&amp;lt;p&amp;gt;段落一&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;段落二&amp;lt;/p&amp;gt; &amp;lt;p class=&amp;#34;style1&amp;#34;&amp;gt;段落三&amp;lt;/p&amp;gt; &amp;lt;p&amp;gt;段落四&amp;lt;/p&amp;gt; STYLE.CSS 增加如下 code
+.style1 { color: red; } class 屬性也同樣可以應用在 a 或是 li 上面</description>
+    </item>
     <item>
       <title>學習筆記-HTML基礎</title>
       <link>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-html%E5%9F%BA%E7%A4%8E/</link>
