@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>親子 on Yun&#39;s Site</title>
+    <link>http://localhost:1313/tags/%E8%A6%AA%E5%AD%90/</link>
+    <description>Recent content in 親子 on Yun&#39;s Site</description>
+    <image>
+      <title>Yun&#39;s Site</title>
+      <url>https://i.imgur.com/1RKRr7x.png</url>
+      <link>https://i.imgur.com/1RKRr7x.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-tw</language>
+    <lastBuildDate>Thu, 22 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E8%A6%AA%E5%AD%90/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>我想成為這樣的媽媽</title>
+      <link>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E6%88%91%E6%83%B3%E6%88%90%E7%82%BA%E9%80%99%E6%A8%A3%E7%9A%84%E5%AA%BD%E5%AA%BD/</link>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E6%88%91%E6%83%B3%E6%88%90%E7%82%BA%E9%80%99%E6%A8%A3%E7%9A%84%E5%AA%BD%E5%AA%BD/</guid>
+      <description>我想成為這樣的媽媽
+[ ] 有自己的朋友跟社交圈 []有自己的事業(並非只是工作) []財務狀況穩定，有自己的退休計畫 []有興趣愛好</description>
+    </item>
+  </channel>
+</rss>
