@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 10 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Papermod 架站美化</title>
@@ -26,6 +26,17 @@
 如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target=&amp;quot;_blank&amp;quot;。
 &amp;lt;a class=&amp;#34;hugo-shortcodes-bmc-button&amp;#34; href=&amp;#34;{{ $url | safeURL }}&amp;#34; target=&amp;#34;_blank&amp;#34; &amp;gt;&amp;lt;/a&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
 ---showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 5.</description>
+    </item>
+    <item>
+      <title>最近</title>
+      <link>https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E6%9C%80%E8%BF%91/</link>
+      <pubDate>Sun, 10 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E6%9C%80%E8%BF%91/</guid>
+      <description>雖然最近分享欲極低，但逼迫自己一定要寫一篇文章，以防止我又想要註銷這個網域。
+最近的生活是被工作、孩子、股票、攝影這幾個大項目給填滿，工作上我盡量做到不升遷也不會過份失落的努力份額，力拼「做好自己的工作同時讓同事感到舒心，這樣就好」的狀態。
+孩子則占了工作外生活 80%的比重，買了很多玩具試圖降低女兒 3C 的時間。
+股票大概是佔了工作外 10%的比重，開始重新掛了條件單，美股只買 uber，台股則買了 PCB 原材。
+攝影大概也占了 10%，因為手上多了一台富士 XM5，所以很累時也會想好吧出門走走看看能不能拍張照，算是間接逼迫自己不要這麼宅。週末忽然有股衝動想入手 XT50 和 16-55 變焦鏡頭，還在天人交戰中。</description>
     </item>
     <item>
       <title>習慣放棄</title>
