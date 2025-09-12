@@ -11,9 +11,24 @@ INLINE 行內元素 行內元素特性:
 比較常用在段落 沒辦法設定寬高 SPAN SPAN 本身沒什麼意思，是用來點綴排版用的行內標籤
 寫法例如:
 &lt;p>&lt;span>今天&lt;/span> 天氣真好&lt;/p> 或是使用 class 寫法
-&lt;p>&lt;span class="red">今天&lt;/span> 天氣真好&lt;/p> .red { color: red; } 想要讓行內元素變成區塊元素的話，需要在 CSS 中加入 display:block...</p></div><footer class=entry-footer><span title='2025-09-12 00:00:00 +0000 UTC'>September 12, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to 學習筆記-使用CSS變更HTML標籤特性" href=https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BD%BF%E7%94%A8css%E8%AE%8A%E6%9B%B4html%E6%A8%99%E7%B1%A4%E7%89%B9%E6%80%A7/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>憂鬱</span></h2></header><div class=entry-content><p>這幾天忽然有股 EMO 的情緒席捲而來，前陣子喜歡幫女兒打扮得漂亮，積極看網拍，周末滿腔熱血拍照，發 IG，而這兩天忽然這種熱忱消失的無影無蹤，甚至出現了：「到底在幹嘛，這很無趣」的這種想法，我認知到自己居然有這種很可怕的情緒退潮。
-做任何事情對我來說都像參加一場派對，一開始的音樂讓人沉迷，後來愈來愈無感，最後只剩下想離場的厭倦，也許其他人的 cycle 是幾年，而我則是幾個月，所以我身上只剩下開始的激情，而沒有累積的果實，沒有破關的成就感。
-雖然不是第一次意識到自己的三分鐘熱度，但這次卻覺得特別沮喪，甚至開始憂鬱，開始不想重新開始。</p></div><footer class=entry-footer><span title='2025-08-19 00:00:00 +0000 UTC'>August 19, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to 憂鬱" href=https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E6%86%82%E9%AC%B1/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>最近</span></h2></header><div class=entry-content><p>雖然最近分享欲極低，但逼迫自己一定要寫一篇文章，以防止我又想要註銷這個網域。
+&lt;p>&lt;span class="red">今天&lt;/span> 天氣真好&lt;/p> .red { color: red; } 想要讓行內元素變成區塊元素的話，需要在 CSS 中加入 display:block...</p></div><footer class=entry-footer><span title='2025-09-12 00:00:00 +0000 UTC'>September 12, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to 學習筆記-使用CSS變更HTML標籤特性" href=https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BD%BF%E7%94%A8css%E8%AE%8A%E6%9B%B4html%E6%A8%99%E7%B1%A4%E7%89%B9%E6%80%A7/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>Hugo文章加密方式</span></h2></header><div class=entry-content><p>如果將 Hugo 文章加密?
+Step1 修改 Single.html 在 layouts/_default/single.html 中找到{{- if .Content }}段落，將段落改成以下 code
+{{- if .Content }}
+&lt;div class="post-content">
+{{ if .Params.password }}
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js">&lt;/script>
+&lt;div id="protected">
+&lt;input type="password" id="postPassword" placeholder="輸入密碼" />
+&lt;button id="unlockBtn">解鎖&lt;/button>
+&lt;/div>
+&lt;div id="postContent" style="display:none; margin-top:1rem;">&lt;/div>
+&lt;script>
+const secret = "{{ .Params.password }}";
+// ✅ 保留 HTML 標籤
+const plaintext = {{ .Content | jsonify | safeJS }};
+const ciphertext = CryptoJS.AES.encrypt(plaintext, secret).toString();
+document.getElementById("unlockBtn").addEventListener("click", function () {
+const pwd = document....</p></div><footer class=entry-footer><span title='2025-09-11 00:00:00 +0000 UTC'>September 11, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to Hugo文章加密方式" href=https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/hugo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>憂鬱</span></h2></header><div class=entry-content><p>🔒 文章已加密，請點擊標題輸入密碼閱讀全文。</p></div><footer class=entry-footer><span title='2025-08-19 00:00:00 +0000 UTC'>August 19, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to 憂鬱" href=https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E6%86%82%E9%AC%B1/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>最近</span></h2></header><div class=entry-content><p>雖然最近分享欲極低，但逼迫自己一定要寫一篇文章，以防止我又想要註銷這個網域。
 最近的生活是被工作、孩子、股票、攝影這幾個大項目給填滿，工作上我盡量做到不升遷也不會過份失落的努力份額，力拼「做好自己的工作同時讓同事感到舒心，這樣就好」的狀態。
 孩子則占了工作外生活 80%的比重，買了很多玩具試圖降低女兒 3C 的時間。
 股票大概是佔了工作外 10%的比重，開始重新掛了條件單，美股只買 uber，台股則買了 PCB 原材。
@@ -61,18 +76,7 @@ INDEX.HTML 設定如下
 書中說得好幾個觀點都很值得細品，另外還有關於財富的定義就是自由，也就是說，投注時間所換取的財富其實不是好的財富，這點也很值得反思展開深度規劃。
 整理 最近在讓自己刻意喜歡整理這件事，真的好不容易。
 為什麼有些人天生就喜歡整理?
-我努力嘗試將櫃子清空或是排整齊，發現真的有一絲神清氣爽的感覺，但那感覺大概就維持一秒吧，我知道很快這片區域可能又會被灰塵蒙上一筆灰，乾淨和多巴胺一樣都是很短暫的。</p></div><footer class=entry-footer><span title='2025-04-28 00:00:00 +0000 UTC'>April 28, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to 走什麼霉運" href=https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E8%B5%B0%E4%BB%80%E9%BA%BC%E9%9C%89%E9%81%8B/></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>Papermod 架站美化
-<span class=pinned-tag>[置頂]</span></span></h2></header><div class=entry-content><p>1. 留言板 我本來是使用 Cusdis，一款不限 Github 用戶就可留言的外掛，但某天 Cusdis 直接 shut down，所以我就轉用 utterances。 介面一樣好看，使用方便，唯一缺點就是只限 Github 用戶留言。
-使用utterances，copy 代碼後填上自己的 repo，貼在 themes/layouts/partials/comments.html 內即可使用。
-2. 友鏈 參考Aimer’s Blog的 code 架設。
-目前還沒有網友，但這個版型很好看，之後也可以當作放作品集的頁面。
-3. Buy me a coffee 使用bmc-button by isqua shortcode。
-如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target="_blank"。
-&lt;a class="hugo-shortcodes-bmc-button" href="{{ $url | safeURL }}" target="_blank" >&lt;/a> 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd’s Blog 的 code 設置的。 設置完後在文章打開目錄。
----
-showToc: true # 顯示目錄
-TocOpen: true # 預設打開目錄
---- 5....</p></div><footer class=entry-footer><span title='2025-04-19 00:00:00 +0000 UTC'>April 19, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to Papermod 架站美化" href=https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://yundaily.com/page/2/>下一頁&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2025 <a href=https://yundaily.com/>Yun's Site</a></span>
+我努力嘗試將櫃子清空或是排整齊，發現真的有一絲神清氣爽的感覺，但那感覺大概就維持一秒吧，我知道很快這片區域可能又會被灰塵蒙上一筆灰，乾淨和多巴胺一樣都是很短暫的。</p></div><footer class=entry-footer><span title='2025-04-28 00:00:00 +0000 UTC'>April 28, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to 走什麼霉運" href=https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E8%B5%B0%E4%BB%80%E9%BA%BC%E9%9C%89%E9%81%8B/></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://yundaily.com/page/2/>下一頁&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>&copy; 2025 <a href=https://yundaily.com/>Yun's Site</a></span>
 <span>Powered by
 <a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
         <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>

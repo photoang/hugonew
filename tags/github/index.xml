@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/tags/github/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Papermod 架站美化</title>
@@ -26,6 +26,15 @@
 如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target=&amp;quot;_blank&amp;quot;。
 &amp;lt;a class=&amp;#34;hugo-shortcodes-bmc-button&amp;#34; href=&amp;#34;{{ $url | safeURL }}&amp;#34; target=&amp;#34;_blank&amp;#34; &amp;gt;&amp;lt;/a&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
 ---showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 5.</description>
+    </item>
+    <item>
+      <title>Hugo文章加密方式</title>
+      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/hugo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/hugo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/</guid>
+      <description>如果將 Hugo 文章加密?
+Step1 修改 Single.html 在 layouts/_default/single.html 中找到{{- if .Content }}段落，將段落改成以下 code
+{{- if .Content }}&amp;lt;div class=&amp;#34;post-content&amp;#34;&amp;gt;{{ if .Params.password }}&amp;lt;script src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;div id=&amp;#34;protected&amp;#34;&amp;gt;&amp;lt;input type=&amp;#34;password&amp;#34; id=&amp;#34;postPassword&amp;#34; placeholder=&amp;#34;輸入密碼&amp;#34; /&amp;gt;&amp;lt;button id=&amp;#34;unlockBtn&amp;#34;&amp;gt;解鎖&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div id=&amp;#34;postContent&amp;#34; style=&amp;#34;display:none; margin-top:1rem;&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script&amp;gt;const secret = &amp;#34;{{ .Params.password }}&amp;#34;;// ✅ 保留 HTML 標籤const plaintext = {{ .Content | jsonify | safeJS }};const ciphertext = CryptoJS.AES.encrypt(plaintext, secret).toString();document.getElementById(&amp;#34;unlockBtn&amp;#34;).addEventListener(&amp;#34;click&amp;#34;, function () {const pwd = document.</description>
     </item>
     <item>
       <title>回歸Github x Hugo網誌</title>

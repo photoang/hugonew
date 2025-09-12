@@ -11,7 +11,24 @@
 ---
 showToc: true # 顯示目錄
 TocOpen: true # 預設打開目錄
---- 5....</p></div><footer class=entry-footer><span title='2025-04-19 00:00:00 +0000 UTC'>April 19, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to Papermod 架站美化" href=https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>回歸Github x Hugo網誌</span></h2></header><div class=entry-content><p>byebye Wordpress 在架設了 N 個網站之後，本月我還是下定決定跟 Wordpress 說掰掰了，回歸到使用 Github 搭配 Hugo 的組合，釐清自己的文章內容與定位實在很重要，因為我並沒有明確的網站方向以及營利目標，只是單純記錄生活的網誌卻要花費每月 600 多塊的平台費用，對我來說還是覺得太貴。
+--- 5....</p></div><footer class=entry-footer><span title='2025-04-19 00:00:00 +0000 UTC'>April 19, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to Papermod 架站美化" href=https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/papermod-%E6%9E%B6%E7%AB%99%E7%BE%8E%E5%8C%96/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>Hugo文章加密方式</span></h2></header><div class=entry-content><p>如果將 Hugo 文章加密?
+Step1 修改 Single.html 在 layouts/_default/single.html 中找到{{- if .Content }}段落，將段落改成以下 code
+{{- if .Content }}
+&lt;div class="post-content">
+{{ if .Params.password }}
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js">&lt;/script>
+&lt;div id="protected">
+&lt;input type="password" id="postPassword" placeholder="輸入密碼" />
+&lt;button id="unlockBtn">解鎖&lt;/button>
+&lt;/div>
+&lt;div id="postContent" style="display:none; margin-top:1rem;">&lt;/div>
+&lt;script>
+const secret = "{{ .Params.password }}";
+// ✅ 保留 HTML 標籤
+const plaintext = {{ .Content | jsonify | safeJS }};
+const ciphertext = CryptoJS.AES.encrypt(plaintext, secret).toString();
+document.getElementById("unlockBtn").addEventListener("click", function () {
+const pwd = document....</p></div><footer class=entry-footer><span title='2025-09-11 00:00:00 +0000 UTC'>September 11, 2025</span>&nbsp;·&nbsp;1 分鐘&nbsp;·&nbsp;Yun</footer><a class=entry-link aria-label="post link to Hugo文章加密方式" href=https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/hugo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2 class=entry-hint-parent><span class=entry-title>回歸Github x Hugo網誌</span></h2></header><div class=entry-content><p>byebye Wordpress 在架設了 N 個網站之後，本月我還是下定決定跟 Wordpress 說掰掰了，回歸到使用 Github 搭配 Hugo 的組合，釐清自己的文章內容與定位實在很重要，因為我並沒有明確的網站方向以及營利目標，只是單純記錄生活的網誌卻要花費每月 600 多塊的平台費用，對我來說還是覺得太貴。
 同時雖然使用 Cloudways 創建的 Wordpress 網站 SEO 表現很好，但從 Google search console 結果來看我的文章內容確認無法導流（太冷門的內容），因此我含淚跟 Wordpress 說 byebye。
 接納 Hugo 網站的不便 首先因為我是純文科生，使用 Github 架設 Hugo 網站，從架設網站、修改網站 CSS 到寫文章都需要程式底子，沒有直接用 Wordpress 來的方便省時間。
 再來是從之前的測試結果來看，Hugo 網站如果放置太多圖片會非常容易影響網站速度，PageSpeed Insights 檢測出來的網速大幅低於用 Cloudways 架設的網速。

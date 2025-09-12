@@ -45,6 +45,15 @@ INLINE 行內元素 行內元素特性:
 &amp;lt;p&amp;gt;&amp;lt;span class=&amp;#34;red&amp;#34;&amp;gt;今天&amp;lt;/span&amp;gt; 天氣真好&amp;lt;/p&amp;gt; .red { color: red; } 想要讓行內元素變成區塊元素的話，需要在 CSS 中加入 display:block</description>
     </item>
     <item>
+      <title>Hugo文章加密方式</title>
+      <link>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/hugo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/</link>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/%E6%9E%B6%E7%B6%B2%E7%AB%99/hugo%E6%96%87%E7%AB%A0%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F/</guid>
+      <description>如果將 Hugo 文章加密?
+Step1 修改 Single.html 在 layouts/_default/single.html 中找到{{- if .Content }}段落，將段落改成以下 code
+{{- if .Content }}&amp;lt;div class=&amp;#34;post-content&amp;#34;&amp;gt;{{ if .Params.password }}&amp;lt;script src=&amp;#34;https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js&amp;#34;&amp;gt;&amp;lt;/script&amp;gt;&amp;lt;div id=&amp;#34;protected&amp;#34;&amp;gt;&amp;lt;input type=&amp;#34;password&amp;#34; id=&amp;#34;postPassword&amp;#34; placeholder=&amp;#34;輸入密碼&amp;#34; /&amp;gt;&amp;lt;button id=&amp;#34;unlockBtn&amp;#34;&amp;gt;解鎖&amp;lt;/button&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;div id=&amp;#34;postContent&amp;#34; style=&amp;#34;display:none; margin-top:1rem;&amp;#34;&amp;gt;&amp;lt;/div&amp;gt;&amp;lt;script&amp;gt;const secret = &amp;#34;{{ .Params.password }}&amp;#34;;// ✅ 保留 HTML 標籤const plaintext = {{ .Content | jsonify | safeJS }};const ciphertext = CryptoJS.AES.encrypt(plaintext, secret).toString();document.getElementById(&amp;#34;unlockBtn&amp;#34;).addEventListener(&amp;#34;click&amp;#34;, function () {const pwd = document.</description>
+    </item>
+    <item>
       <title>憂鬱</title>
       <link>https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E6%86%82%E9%AC%B1/</link>
       <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
