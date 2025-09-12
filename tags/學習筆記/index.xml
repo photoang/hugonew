@@ -11,8 +11,25 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/tags/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>學習筆記-使用CSS變更HTML標籤特性</title>
+      <link>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BD%BF%E7%94%A8css%E8%AE%8A%E6%9B%B4html%E6%A8%99%E7%B1%A4%E7%89%B9%E6%80%A7/</link>
+      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BD%BF%E7%94%A8css%E8%AE%8A%E6%9B%B4html%E6%A8%99%E7%B1%A4%E7%89%B9%E6%80%A7/</guid>
+      <description>CSS Reset 清空瀏覽器預設樣式 如果只有寫 html，則瀏覽器會有預設的 CSS 樣式帶入
+在 Google 上搜尋 CSS reset 點以下連結可以查詢到 CSS reset Code 將這個網頁裡的 code 貼入 自己的 style.css 就可以 reset 預設樣式
+貼完之後再寫自己的 CSS code，則下方的 CSS 權重會大於上方，所以會以自己寫的 CSS 為最後呈現
+BLOCK 區塊元素 區塊元素特性:
+盡可能的占滿版面 區塊元素會另起一行進行呈現 如上圖，a 標籤沒有占滿版面，也沒有另起一行呈現，所以不是區塊元素
+從 Computed 中可以看到是 Auto x Auto
+INLINE 行內元素 行內元素特性:
+比較常用在段落 沒辦法設定寬高 SPAN SPAN 本身沒什麼意思，是用來點綴排版用的行內標籤
+寫法例如:
+&amp;lt;p&amp;gt;&amp;lt;span&amp;gt;今天&amp;lt;/span&amp;gt; 天氣真好&amp;lt;/p&amp;gt; 或是使用 class 寫法
+&amp;lt;p&amp;gt;&amp;lt;span class=&amp;#34;red&amp;#34;&amp;gt;今天&amp;lt;/span&amp;gt; 天氣真好&amp;lt;/p&amp;gt; .red { color: red; } 想要讓行內元素變成區塊元素的話，需要在 CSS 中加入 display:block</description>
+    </item>
     <item>
       <title>學習筆記-CSS基礎</title>
       <link>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-css%E5%9F%BA%E7%A4%8E/</link>
