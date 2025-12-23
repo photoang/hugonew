@@ -11,8 +11,17 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Fri, 12 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/tags/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>學習筆記-CSS Flex網頁排版</title>
+      <link>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-css-flex%E7%B6%B2%E9%A0%81%E6%8E%92%E7%89%88/</link>
+      <pubDate>Sat, 20 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-css-flex%E7%B6%B2%E9%A0%81%E6%8E%92%E7%89%88/</guid>
+      <description>FLEX 外層 container 屬性 Class 裡面有兩個樣式, 則兩個樣式都會使用到
+&amp;lt;div class=&amp;#34;container&amp;#34;&amp;gt; &amp;lt;div class=&amp;#34;item item1&amp;#34;&amp;gt;1&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;item item2&amp;#34;&amp;gt;2&amp;lt;/div&amp;gt; &amp;lt;div class=&amp;#34;item item3&amp;#34;&amp;gt;3&amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; .container { display: flex; width: 500px; background: #004466; margin: 0 auto; } .item { background: #00ffa2; color: #004466; text-align: center; font-size: 36px; margin-right: 10px; margin-left: 10px; } .item1 { width: 150px; height: 150px; } .item2 { height: 200p; } .item3 { height: 300p; } display: flex 要寫在外層(container), 可以讓區塊元素並排展現
+會依照 container 設定的寬度, 讓裡面 item 根據比例自動調整</description>
+    </item>
     <item>
       <title>學習筆記-使用CSS變更HTML標籤特性</title>
       <link>https://yundaily.com/posts/30%E5%A4%A9%E8%BB%9F%E9%AB%94%E5%B7%A5%E7%A8%8B%E5%B8%AB%E9%AB%94%E9%A9%97%E7%87%9F2025/%E5%AD%B8%E7%BF%92%E7%AD%86%E8%A8%98-%E4%BD%BF%E7%94%A8css%E8%AE%8A%E6%9B%B4html%E6%A8%99%E7%B1%A4%E7%89%B9%E6%80%A7/</link>
