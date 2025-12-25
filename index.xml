@@ -11,7 +11,7 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 20 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://yundaily.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Papermod 架站美化</title>
@@ -26,6 +26,25 @@
 如果想要點入時另開新視窗，可以在 shortcodes/bmc-button.html 下在原本 code 的 href 後增加 target=&amp;quot;_blank&amp;quot;。
 &amp;lt;a class=&amp;#34;hugo-shortcodes-bmc-button&amp;#34; href=&amp;#34;{{ $url | safeURL }}&amp;#34; target=&amp;#34;_blank&amp;#34; &amp;gt;&amp;lt;/a&amp;gt; 4. 目錄放側邊 原出處 Sulv 的文章好像已經失效了，我是參考使用3rd&amp;rsquo;s Blog 的 code 設置的。 設置完後在文章打開目錄。
 ---showToc: true # 顯示目錄TocOpen: true # 預設打開目錄--- 5.</description>
+    </item>
+    <item>
+      <title>帶2歲女兒去香港迪士尼</title>
+      <link>https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E5%B8%B62%E6%AD%B2%E5%A5%B3%E5%85%92%E5%8E%BB%E9%A6%99%E6%B8%AF%E8%BF%AA%E5%A3%AB%E5%B0%BC/</link>
+      <pubDate>Wed, 24 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>https://yundaily.com/posts/%E7%94%9F%E6%B4%BB%E9%9A%A8%E7%AD%86/%E5%B8%B62%E6%AD%B2%E5%A5%B3%E5%85%92%E5%8E%BB%E9%A6%99%E6%B8%AF%E8%BF%AA%E5%A3%AB%E5%B0%BC/</guid>
+      <description>女兒滿兩歲了，這次剛好慶祝老公生日，所以帶老公小孩來香港迪士尼，搭的是從台中直飛的香港快運。
+這次四天三夜總結費用時發現這是盤子玩法，分享不害怕當盤子的爸媽們。(花好花滿，只要我還能花，就一定花光光)
+Day1 迪士尼樂園酒店 check-in 買 2 日票
+迪士尼樂園吃晚餐－Corner Cafe，以樂園裡的餐點價格來說，一個有前菜+主餐的 set 約台幣 1200，還在我的預期範圍內。
+在看煙火前撤退
+Day2 迪士尼樂園吃早餐 (園內的星巴克)
+2pm 離場去新酒店-香港維港凱悅尚萃酒店 check in
+海港城看聖誕樹
+Day3 酒店吃早餐
+去中環買蛋塔
+晚上去中環看聖誕樹
+Day4 回台灣
+總花費 機票(2 大 1 小) NTD 29637 迪士尼 2 日票(2 大) NTD 6079 住宿 迪士尼樂園酒店一晚 NTD 19722 維港兩晚 HK 2059.13+2139.88+10%服務費+3%稅 (約 NT 19234) 吃+行 NTD 3 萬 被這趟香港行的消費給驚呆了，沒有預料會花這麼多</description>
     </item>
     <item>
       <title>學習筆記-CSS Flex網頁排版</title>
